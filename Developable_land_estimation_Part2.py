@@ -1,16 +1,6 @@
 # Script Name: Developable and developed land in the USA: Part 2.
 # Description: This script is used to get a zonal statistics on
-#              the developable and developed land. Part 1 of the
-#              script creates a bunch of raster files, with each
-#              being located in its input folder that corresponds
-#              to 1x1-degree NED tile. This script:
-#              1. loops through the folder with shapefiles;
-#              2. determines the coordinates of 4 extreme corners
-#                   that cover each shapefiles;
-#              3. selects the correct 1x1-degree NED tiles and merges
-#                    them together to cover the whole shapefile;
-#              4. applies a zonal statistics tool to get the amount of
-#                    developable and developed land in each census tract.
+#              the developable and developed land. 
 # Created By:  Ievgenii Kudko.
 # Date:        December 19th 2014.
 
